@@ -1,14 +1,4 @@
-# frozen_string_literal: true
-
 source "https://rubygems.org"
 
-git_source(:github) { |repo_name| "https://github.com/#{repo_name}" }
-gem "jekyll"
-gem 'jekyll-feed'
-gem 'jekyll-readme-index'
-gem 'jemoji'
-gem 'webrick'
-gem "kramdown-parser-gfm"
-gem 'mediawiki-page-replaceable_content', '~> 0.1.4'
-
-# gem "rails"
+# gem "github-pages", group: :jekyll_plugins
+gemspec

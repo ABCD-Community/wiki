@@ -1,0 +1,369 @@
+header:
+  - title:      Home
+    url:        /
+  - title:      Docs
+    url:        /docs/en/quick-start
+    key:        docs
+  - title:      Samples
+    url:        /samples.html
+    key:        samples
+  - title:      Archive
+    url:        /archive.html
+  - title:      About
+    url:        /about.html
+  - title:      GitHub
+    url:        https://github.com/kitian616/jekyll-TeXt-theme
+
+
+docs-en:
+  - title:      Home
+    children:
+      - title:  About the ABCD
+        url:    /docs/en/quick-start
+      - title:  Some ABCD users
+        url:    /docs/en/users_abcd
+      - title:  Downloads
+        url:    /docs/en/versions
+      - title:  Demo
+        url:    /docs/en/versions
+  - title:      Central module configuration
+    children:
+      - title:  Internationalization
+        url:    /docs/en/1-configuration/internationalization
+      - title:  Initial configuration (config.php)
+        url:    /docs/en/1-configuration/configuration
+      - title:  Extended configuration (config_extended.php)
+        url:    /docs/en/1-configuration/configuration_ext
+      - title:  abcd.def - General configuration parameters
+        url:    /docs/en/1-configuration/abcd_def
+      - title:  Folders with the databases
+        url:    /docs/en/1-configuration/folders_databases
+      - title:  Permits of ABCD operators
+        url:    /docs/en/1-configuration/operators
+      - title:  Change the appearance
+        url:    /docs/en/1-configuration/appearance    
+      - title:  Modify home page
+        url:    /docs/en/1-configuration/modify-home-page     
+      - title:  Modify the bases.dat file
+        url:    /docs/en/1-configuration/bases_dat      
+      - title:  Add a new option to the cataloging menu
+        url:    /docs/en/1-configuration/add_module
+  - title:      Cataloging
+    children:
+      - title:    Definition of databases
+        url:  /docs/en/2-cataloging/fdt
+      - title:  Dictionary of terms (Indexes)
+        url:  /docs/en/2-cataloging/fdt
+      - title:  Data entry
+        url:  /docs/en/2-cataloging/fdt
+      - title:  Protect record editing
+        url:  /docs/en/2-cataloging/fdt
+      - title:  Record validation
+        url:  /docs/en/2-cataloging/fdt
+      - title:  Terminology control
+        url:  /docs/en/2-cataloging/fdt
+      - title:  Searches
+        url:  /docs/en/2-cataloging/fdt
+      - title:  Thesaurus
+        url:  /docs/en/2-cataloging/fdt
+      - title:  Record presentation formats
+        url:  /docs/en/2-cataloging/fdt
+      - title:  Associate digital documents
+        url:  /docs/en/2-cataloging/fdt
+      - title:  Modify database definition
+        url:  /docs/en/2-cataloging/fdt
+      - title:  Collection inventory management
+        url:  /docs/en/2-cataloging/fdt
+      - title:  Utility
+        url:  /docs/en/2-cataloging/fdt
+      - title:  Label and barcode printing
+        url:  /docs/en/2-cataloging/fdt
+      - title:  Collection inventory
+        url:  /docs/en/2-cataloging/fdt
+      - title:  Reports
+        url:  /docs/en/2-cataloging/fdt
+      - title:  Statistics
+        url:  /docs/en/2-cataloging/fdt
+  - title:      Customization
+    children:
+      - title:  Configuration
+        url:    /docs/en/configuration
+      - title:  Navigation
+        url:    /docs/en/navigation
+      - title:  Layouts
+        url:    /docs/en/layouts
+      - title:  Logo and Favicon
+        url:    /docs/en/logo-and-favicon
+      - title:  Authors
+        url:    /docs/en/authors
+      - title:  Internationalization
+        url:    /docs/en/i18n
+  - title:      Content
+    children:
+      - title:  Writing Posts
+        url:    /docs/en/writing-posts
+      - title:  Additional Styles
+        url:    /docs/en/additional-styles
+      - title:  Extensions
+        url:    /docs/en/extensions
+      - title:  Markdown Enhancements
+        url:    /docs/en/markdown-enhancements
+  - title:      Extra
+    children:
+      - title:  Spacing
+        url:    /docs/en/spacing
+      - title:  Grid
+        url:    /docs/en/grid
+      - title:  Icons
+        url:    /docs/en/icons
+      - title:  Image
+        url:    /docs/en/image
+      - title:  Button
+        url:    /docs/en/button
+      - title:  Item
+        url:    /docs/en/item
+      - title:  Card
+        url:    /docs/en/card
+      - title:  Hero
+        url:    /docs/en/hero
+      - title:  Swiper
+        url:    /docs/en/swiper
+  - title:      Languages
+    children:
+      - title:  Spanish
+        url:    /docs/es/quick-start
+      - title:  Portuguese
+        url:    /docs/pt/quick-start
+
+docs-es:
+  - title:      Home
+    children:
+      - title:  Acerca del ABCD
+        url:    /docs/es/quick-start
+      - title:  Some ABCD users
+        url:    /docs/es/users_abcd
+      - title:  Downloads
+        url:    /docs/es/versions
+      - title:  Demo
+        url:    /docs/es/versions
+  - title:      Central module configuration
+    children:
+      - title:  Internationalization
+        url:    /docs/es/1-configuration/internationalization
+      - title:  Initial configuration (config.php)
+        url:    /docs/es/1-configuration/configuration
+      - title:  Extended configuration (config_extended.php)
+        url:    /docs/es/1-configuration/configuration_ext
+      - title:  abcd.def - General configuration parameters
+        url:    /docs/es/1-configuration/abcd_def
+      - title:  Folders with the databases
+        url:    /docs/es/1-configuration/folders_databases
+      - title:  Permits of ABCD operators
+        url:    /docs/es/1-configuration/operators
+      - title:  Change the appearance
+        url:    /docs/es/1-configuration/appearance    
+      - title:  Modify home page
+        url:    /docs/es/1-configuration/modify-home-page     
+      - title:  Modify the bases.dat file
+        url:    /docs/es/1-configuration/bases_dat      
+      - title:  Add a new option to the cataloging menu
+        url:    /docs/es/1-configuration/add_module
+  - title:      Catalogación
+    children:
+        - title:  Definición de bases de datos
+          url: /docs/es/2-catalogation/fdt
+        - title:  Diccionario de términos (Índices)
+          url: /docs/es/2-catalogation/fdt
+        - title:  Entrada de datos
+          url: /docs/es/2-catalogation/fdt
+        - title:  Proteger la edición de registros
+          url: /docs/es/2-catalogation/fdt
+        - title:  Validación de registros
+          url: /docs/es/2-catalogation/fdt
+        - title:  Control de terminología
+          url: /docs/es/2-catalogation/fdt
+        - title:  Búsquedas
+          url: /docs/es/2-catalogation/fdt
+        - title:  Tesauros
+          url: /docs/es/2-catalogation/fdt
+        - title:  Formatos de presentación de los registros
+          url: /docs/es/2-catalogation/fdt
+        - title:  Asociar documentos digitales
+          url: /docs/es/2-catalogation/fdt
+        - title:  Modificar definición base de datos
+          url: /docs/es/2-catalogation/fdt
+        - title:  Manejo del inventario de la colección
+          url: /docs/es/2-catalogation/fdt
+        - title:  Utilitarios
+          url: /docs/es/2-catalogation/fdt
+        - title:  Impresión de marbetes y códigos de barra
+          url: /docs/es/2-catalogation/fdt
+        - title:  Realización del inventario de la colección
+          url: /docs/es/2-catalogation/fdt
+        - title:  Reportes
+          url: /docs/es/2-catalogation/fdt
+        - title:  Estadísticas
+          url: /docs/es/2-catalogation/fdt
+  - title:      Circulación y préstamos
+    children:
+      - title:  Catalogación
+        url:    /docs/es/configuration
+  - title:      Reservas
+    children:
+      - title:  Catalogación
+        url:    /docs/es/configuration    
+  - title:      Adquisiciones
+    children:
+      - title:  Catalogación
+        url:    /docs/es/configuration      
+  - title:      OPAC de ABCD
+    children:
+      - title:  Catalogación
+        url:    /docs/es/configuration      
+  - title:      Bases de datos del Sistema
+    children:
+      - title:  Catalogación
+        url:    /docs/es/configuration      
+  - title:      Content
+    children:
+      - title:  Writing Posts
+        url:    /docs/es/writing-posts
+      - title:  Additional Styles
+        url:    /docs/es/additional-styles
+      - title:  Extensions
+        url:    /docs/es/extensions
+      - title:  Markdown Enhancements
+        url:    /docs/es/markdown-enhancements
+  - title:      Extra
+    children:
+      - title:  Spacing
+        url:    /docs/es/spacing
+      - title:  Grid
+        url:    /docs/es/grid
+      - title:  Icons
+        url:    /docs/es/icons
+      - title:  Image
+        url:    /docs/es/image
+      - title:  Button
+        url:    /docs/es/button
+      - title:  Item
+        url:    /docs/es/item
+      - title:  Card
+        url:    /docs/es/card
+      - title:  Hero
+        url:    /docs/es/hero
+      - title:  Swiper
+        url:    /docs/es/swiper
+  - title:      Languages
+    children:
+      - title:  English
+        url:    /docs/en/quick-start
+      - title:  Português
+        url:    /docs/pt/quick-start
+
+docs-pt:
+  - title:      Início
+    children:
+      - title:  Sobre o ABCD
+        url:    /docs/pt/quick-start
+      - title:  Alguns usuários do ABCD
+        url:    /docs/pt/users_abcd
+      - title:  Downloads
+        url:    /docs/pt/versions
+      - title:  Demo
+        url:    /docs/pt/versions
+  - title:      Configuração do módulo central
+    children:
+      - title:  Internacionalização
+        url:    /docs/pt/1-configuration/internationalization
+      - title:  Configuração inicial (config.php)
+        url:    /docs/pt/1-configuration/configuration
+      - title:  Configuração estendida (config_extended.php)
+        url:    /docs/pt/1-configuration/configuration_ext
+      - title:  abcd.def - Parâmetros gerais de configuração
+        url:    /docs/pt/1-configuration/abcd_def
+      - title:  Pastas com os bancos de dados
+        url:    /docs/pt/1-configuration/folders_databases
+      - title:  Permissões dos operadores do ABCD
+        url:    /docs/pt/1-configuration/operators
+      - title:  Alterar a aparência
+        url:    /docs/pt/1-configuration/appearance    
+      - title:  Modificar página inicial
+        url:    /docs/pt/1-configuration/modify-home-page     
+      - title:  Modifique o arquivo bases.dat
+        url:    /docs/pt/1-configuration/bases_dat      
+      - title:  Adicionar uma nova opção ao menu de catalogação
+        url:    /docs/pt/1-configuration/add_module
+  - title:      Catalogação
+    children:
+        - title:  Definição de bancos de dados
+          url: /docs/pt/2-catalogation/fdt
+        - title:  Dicionário de termos (índices)
+          url: /docs/pt/2-catalogation/fdt
+        - title:  Entrada de dados
+          url: /docs/pt/2-catalogation/fdt
+        - title:  Proteger edição de registro
+          url: /docs/pt/2-catalogation/fdt
+        - title:  validação de registro
+          url: /docs/pt/2-catalogation/fdt
+        - title:  Controle de terminologia
+          url: /docs/pt/2-catalogation/fdt
+        - title:  Pesquisas
+          url: /docs/pt/2-catalogation/fdt
+        - title:  Dicionário de sinônimos
+          url: /docs/pt/2-catalogation/fdt
+        - title:  Gravar formatos de apresentação
+          url: /docs/pt/2-catalogation/fdt
+        - title:  Associar documentos digitais
+          url: /docs/pt/2-catalogation/fdt
+        - title:  Modificar definição do banco de dados
+          url: /docs/pt/2-catalogation/fdt
+        - title:  Gestão de inventário de coleção
+          url: /docs/pt/2-catalogation/fdt
+        - title:  Utilitário
+          url: /docs/pt/2-catalogation/fdt
+        - title:  Impressão de etiquetas e códigos de barras
+          url: /docs/pt/2-catalogation/fdt
+        - title:  Inventário de coleção
+          url: /docs/pt/2-catalogation/fdt
+        - title:  Relatórios
+          url: /docs/pt/2-catalogation/fdt
+        - title:  Estatisticas
+          url: /docs/pt/2-catalogation/fdt        
+  - title:      Languages
+    children:
+      - title:  Inglês
+        url:    /docs/en/quick-start
+      - title:  Espanhol
+        url:    /docs/es/quick-start
+
+layouts:
+  - title: Layouts
+    children:
+      - title:  Single
+        url:    /page/single.html
+      - title:  Aside
+        url:    /page/aside.html
+      - title:  Sidebar
+        url:    /page/sidebar.html
+
+      - title:  Sidebar (Aside)
+        url:    /page/sidebar-aside.html
+      - title:  Article Header Overlay Background Fill
+        url:    /page/article-header-overlay-background-fill.html
+      - title:  Article Header Overlay Background Image
+        url:    /page/article-header-overlay-background-image.html
+
+      - title:  Article Header Image
+        url:    /page/article-header-cover-image.html
+      - title:  Article Header Overlay Background Image (Customized Header Background)
+        url:    /page/article-header-overlay-background-image-header-background.html
+      - title:  Article Header Image (Customized Header Background)
+        url:    /page/article-header-cover-image-header-background.html
+
+      - title:  Article Header Overlay Background Fill (Immersive + Translucent Header)
+        url:    /page/article-header-overlay-background-fill-immersive-translucent-header.html
+      - title:  Article Header Overlay Background Image (Immersive + Translucent Header)
+        url:    /page/article-header-overlay-background-image-immersive-translucent-header.html
+      - title:  Article Header Image (Immersive + Translucent Header)
+        url:    /page/article-header-cover-image-immersive-translucent-header.html
