@@ -25,7 +25,7 @@ docs-en:
       - title:  Downloads
         url:    /docs/en/versions
       - title:  Demo
-        url:    /docs/en/versions
+        url:    /docs/en/demo
   - title:      Central module configuration
     children:
       - title:  Internationalization
@@ -145,7 +145,7 @@ docs-es:
       - title:  Downloads
         url:    /docs/es/versions
       - title:  Demo
-        url:    /docs/es/versions
+        url:    /docs/es/demo
   - title:      Central module configuration
     children:
       - title:  Internationalization
@@ -271,7 +271,7 @@ docs-pt:
       - title:  Downloads
         url:    /docs/pt/versions
       - title:  Demo
-        url:    /docs/pt/versions
+        url:    /docs/pt/demo
   - title:      Configuração do módulo central
     children:
       - title:  Internacionalização
