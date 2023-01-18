@@ -22,3 +22,16 @@
 <link rel="stylesheet" href="{{ _sources.font_awesome }}" >
 
 {%- include head/custom.html -%}
+
+
+<script>
+    $(document).ready(function () {
+        $('.dropdown ul>li').click(function () {
+            $('.dropdown ul>li').each(function () {
+                $(this).removeClass('drop-selected');
+            });
+            $(this).toggleClass('drop-selected');
+            $('.dropdown>span').text($(this).attr("val"))
+        });
+    });    
+</script>

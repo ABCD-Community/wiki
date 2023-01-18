@@ -2,7 +2,7 @@ header:
   - title:      Home
     url:        /
   - title:      Docs
-    url:        /docs/en/quick-start
+    url:        /docs/en/
     key:        docs
   - title:      Samples
     url:        /samples.html
@@ -16,17 +16,17 @@ header:
 
 
 docs-en:
-  - title:      Home
+  - title:  Home
     children:
-      - title:  About the ABCD
-        url:    /docs/en/quick-start
+      - title:  About the WIKI
+        url:    /docs/en/
       - title:  Some ABCD users
         url:    /docs/en/users_abcd
       - title:  Downloads
         url:    /docs/en/versions
       - title:  Demo
         url:    /docs/en/demo
-  - title:      Central module configuration
+  - title:  Central module configuration
     children:
       - title:  Internationalization
         url:    /docs/en/1-configuration/internationalization
@@ -48,98 +48,166 @@ docs-en:
         url:    /docs/en/1-configuration/bases_dat      
       - title:  Add a new option to the cataloging menu
         url:    /docs/en/1-configuration/add_module
-  - title:      Cataloging
+  - title:  Cataloging
     children:
-      - title:    Definition of databases
-        url:  /docs/en/2-cataloging/fdt
+      - title:  Definition of databases
+        url: /docs/en/2-cataloging/fdt
       - title:  Dictionary of terms (Indexes)
-        url:  /docs/en/2-cataloging/fdt
+        url: /docs/en/2-cataloging/fst
       - title:  Data entry
-        url:  /docs/en/2-cataloging/fdt
+        url: /docs/en/2-cataloging/fmt
       - title:  Protect record editing
-        url:  /docs/en/2-cataloging/fdt
-      - title:  Record validation
-        url:  /docs/en/2-cataloging/fdt
+        url: /docs/en/2-cataloging/protect-record
+      - title:  record validation
+        url: /docs/en/2-cataloging/recval
       - title:  Terminology control
-        url:  /docs/en/2-cataloging/fdt
+        url: /docs/en/2-cataloging/control-terms
       - title:  Searches
-        url:  /docs/en/2-cataloging/fdt
+        url: /docs/en/2-cataloging/dataentry-search
       - title:  Thesaurus
-        url:  /docs/en/2-cataloging/fdt
+        url: /docs/en/2-cataloging/central-tesaurus
       - title:  Record presentation formats
-        url:  /docs/en/2-cataloging/fdt
+        url: /docs/en/2-cataloging/pft
       - title:  Associate digital documents
-        url:  /docs/en/2-cataloging/fdt
+        url: /docs/en/2-cataloging/doc_digital
       - title:  Modify database definition
-        url:  /docs/en/2-cataloging/fdt
+        url: /docs/en/2-cataloging/modify-db
       - title:  Collection inventory management
-        url:  /docs/en/2-cataloging/fdt
+        url: /docs/en/2-cataloging/inventory
       - title:  Utility
-        url:  /docs/en/2-cataloging/fdt
+        url: /docs/en/2-cataloging/utils
       - title:  Label and barcode printing
-        url:  /docs/en/2-cataloging/fdt
+        url: /docs/en/2-cataloging/print-barcode
       - title:  Collection inventory
-        url:  /docs/en/2-cataloging/fdt
-      - title:  Reports
-        url:  /docs/en/2-cataloging/fdt
+        url: /docs/en/2-cataloging/inventory-collection
+      - title:  reports
+        url: /docs/en/2-cataloging/reports
       - title:  Statistics
-        url:  /docs/en/2-cataloging/fdt
-  - title:      Customization
+        url: /docs/en/2-cataloging/stats
+  - title:  Circulation and loans
     children:
-      - title:  Configuration
-        url:    /docs/en/configuration
-      - title:  Navigation
-        url:    /docs/en/navigation
-      - title:  Layouts
-        url:    /docs/en/layouts
-      - title:  Logo and Favicon
-        url:    /docs/en/logo-and-favicon
-      - title:  Authors
-        url:    /docs/en/authors
-      - title:  Internationalization
-        url:    /docs/en/i18n
-  - title:      Content
+      - title:  Loan configuration
+        url: /docs/en/3-circulation/config-circ
+      - title:  Source databases
+        url: /docs/en/3-circulation/database-orig
+      - title:  Modalities for access to copies
+        url: /docs/en/3-circulation/access-copies
+      - title:  Loan/renewal days
+        url: /docs/en/3-circulation/renew
+      - title:  Control of the loan of magazines
+        url: /docs/en/3-circulation/journal
+      - title:  Printing of receipts
+        url: /docs/en/3-circulation/print-receipts
+      - title:  Sending email reminders
+        url: /docs/en/3-circulation/mail-receipts
+      - title:  display formats
+        url: /docs/en/3-circulation/pft-circ
+      - title:  Databases involved in the process
+        url: /docs/en/3-circulation/databases-int
+      - title:  Script for the loan process
+        url: /docs/en/3-circulation/scripts-circ
+  - title:  Reserves
     children:
-      - title:  Writing Posts
-        url:    /docs/en/writing-posts
-      - title:  Additional Styles
-        url:    /docs/en/additional-styles
-      - title:  Extensions
-        url:    /docs/en/extensions
-      - title:  Markdown Enhancements
-        url:    /docs/en/markdown-enhancements
-  - title:      Extra
+      - title:  Requirements to implement the reserve
+        url: /docs/en/4-reserves/start-reserve
+      - title:  Formats used in the reservation
+        url: /docs/en/4-reserves/pft-reserve
+      - title:  How ABCD determines if you can book
+        url: /docs/en/4-reserves/set-reserver
+      - title:  Email generation
+        url: /docs/en/4-reserves/mail-reserves
+  - title:  Acquisitions
     children:
-      - title:  Spacing
-        url:    /docs/en/spacing
-      - title:  Grid
-        url:    /docs/en/grid
-      - title:  Icons
-        url:    /docs/en/icons
-      - title:  Image
-        url:    /docs/en/image
-      - title:  Button
-        url:    /docs/en/button
-      - title:  Item
-        url:    /docs/en/item
-      - title:  Card
-        url:    /docs/en/card
-      - title:  Hero
-        url:    /docs/en/hero
-      - title:  Swiper
-        url:    /docs/en/swiper
-  - title:      Languages
+      - title:  Acquisitions
+        url: /docs/en/5-acquisitions/start-acq
+  - title:  OPAC
+    children:
+      - title:  Description
+        url: /docs/en/6-opac/start
+      - title:  Download Beta version
+        url: /docs/en/6-opac/download-opac
+      - title:  Structure of the folders with scripts and executables
+        url: /docs/en/6-opac/folders-scripts
+      - title:  Folder structure with configuration files
+        url: /docs/en/6-opac/structure-folder
+      - title:  Setup Walkthrough
+        url: /docs/en/6-opac/configuration
+      - title:  Configuration details
+        url: /docs/en/6-opac/more-config
+      - title:  Registry Toolbar
+        url: /docs/en/6-opac/toolbars
+      - title:  Database configuration
+        url: /docs/en/6-opac/config-database
+      - title:  circulation and loans
+        url: /docs/en/6-opac/opac-circulation
+      - title:  output formats
+        url: /docs/en/6-opac/opac-pft
+      - title:  Link database records
+        url: /docs/en/6-opac/con-db
+      - title:  Appearance
+        url: /docs/en/6-opac/design
+  - title:  iAH
+    children:
+      - title:  Query the databases
+        url: /docs/en/7-iah/search-database
+      - title:  Submit a parent record and its linked records
+        url: /docs/en/7-iah/principal-rec
+      - title:  Link with circulation and loan
+        url: /docs/en/7-iah/iah-circ
+      - title:  User account status
+        url: /docs/en/7-iah/iah-users
+      - title:  Online reservation
+        url: /docs/en/7-iah/iah-reserve
+      - title:  Request password to read protected documents
+        url: /docs/en/7-iah/iah-login
+      - title:  Javascript to highlight search terms
+        url: /docs/en/7-iah/iah-highlight
+      - title:  iAH vulnerability fix
+        url: /docs/en/7-iah/iah-security
+      - title:  Add own parameters to the DBN.def file
+        url: /docs/en/7-iah/iah-dbn-par
+      - title:  Detect the IP of the client that queries
+        url: /docs/en/7-iah/iah-ip
+      - title:  Activate options for execution
+        url: /docs/en/7-iah/iah-options-exec
+  - title:  System databases
+    children:  
+      - title:  System databases
+        url: /docs/en/8-sys_database/databases-sys
+  - title:  Documentation
+    children:
+      - title:  Documents and Manuals
+        url: /docs/en/9-documentation/manual
+      - title:  Frequently asked questions
+        url: /docs/en/9-documentation/faq
+      - title:  Error messages
+        url: /docs/en/9-documentation/errors
+      - title:  To do
+        url: /docs/en/9-documentation/planner
+  - title:  Introduction to CDS/Isis structures
+    children:
+      - title:  Generalities
+        url: /docs/en/99-cdsisis/general
+      - title:  data files
+        url: /docs/en/99-cdsisis/data-files
+      - title:  Index files
+        url: /docs/en/99-cdsisis/index-files
+      - title:  Format language
+        url: /docs/en/99-cdsisis/pft-files
+      - title:  Field Extraction Table (FST)
+        url: /docs/en/99-cdsisis/fst-files
+  - title:  Languages
     children:
       - title:  Spanish
-        url:    /docs/es/quick-start
+        url:    /docs/es/
       - title:  Portuguese
-        url:    /docs/pt/quick-start
+        url:    /docs/pt/
 
 docs-es:
   - title:      Home
     children:
       - title:  Acerca del ABCD
-        url:    /docs/es/quick-start
+        url:    /docs/es/
       - title:  Some ABCD users
         url:    /docs/es/users_abcd
       - title:  Downloads
@@ -207,25 +275,25 @@ docs-es:
   - title:      Circulación y préstamos
     children:
       - title:  Configuración préstamos
-        url: /docs/3-circulation/config-circ
+        url: /docs/es/3-circulation/config-circ
       - title:  Bases de datos de origen
-        url: /docs/3-circulation/database-orig
+        url: /docs/es/3-circulation/database-orig
       - title:  Modalidades para el acceso a las copias
-        url: /docs/3-circulation/access-copies
-      - title:  Días préstamo/renovación
-        url: /docs/3-circulation/renew
+        url: /docs/es/3-circulation/access-copies
+      - title:  Días préstamo e renovación
+        url: /docs/es/3-circulation/renew
       - title:  Control del préstamo de revistas
-        url: /docs/3-circulation/issues
+        url: /docs/es/3-circulation/journal
       - title:  Impresión de los recibos
-        url: /docs/3-circulation/print-receipts
+        url: /docs/es/3-circulation/print-receipts
       - title:  Envío de recordatorios por correo electrónico
-        url: /docs/3-circulation/mail-receipts
+        url: /docs/es/3-circulation/mail-receipts
       - title:  Formatos de despliegue
-        url: /docs/3-circulation/pft-circ
+        url: /docs/es/3-circulation/pft-circ
       - title:  Bases de datos que intervienen en el proceso
-        url: /docs/3-circulation/databases-int
+        url: /docs/es/3-circulation/databases-int
       - title:  Script para el proceso de préstamos
-        url: /docs/3-circulation/scripts-circ
+        url: /docs/es/3-circulation/scripts-circ
   - title:      Reservas
     children:
       - title:  Requisitos para implementar la reserva
@@ -239,7 +307,7 @@ docs-es:
   - title:      Adquisiciones
     children:
       - title:  Adquisiciones
-        url: /docs/es/41-acquisitions/start-acq
+        url: /docs/es/5-acquisitions/start-acq
   - title:      OPAC de ABCD
     children:
       - title:  Descripción
@@ -263,9 +331,9 @@ docs-es:
       - title:  Formatos de salida
         url: /docs/es/6-opac/opac-pft
       - title:  Vincular registros de bases de datos
-        url: /docs/es/6-opac/xxxxx
+        url: /docs/es/6-opac/con-db
       - title:  Apariencia      
-        url: /docs/es/6-opac/xxxxx
+        url: /docs/es/6-opac/design
   - title:      iAH
     children:
       - title:  Consulta a las bases de datos
@@ -291,7 +359,9 @@ docs-es:
       - title:  Activar opciones para la ejecución     
         url: /docs/es/7-iah/iah-options-exec
   - title:      Bases de datos del Sistema
-    url: /docs/es/8-sys_database/databases-sys
+    children:  
+      - title:  Bases de datos del Sistema
+        url: /docs/es/8-sys_database/databases-sys
   - title:      Documentación
     children:
       - title:  Documentos y Manuales
@@ -317,20 +387,20 @@ docs-es:
   - title:      Languages
     children:
       - title:  English
-        url:    /docs/en/quick-start
+        url:    /docs/en/
       - title:  Português
-        url:    /docs/pt/quick-start
+        url:    /docs/pt/
 
 docs-pt:
   - title:      Início
     children:
-      - title:  Sobre o ABCD
-        url:    /docs/pt/quick-start
+      - title:  Sobre o Wiki
+        url:    /docs/pt/
       - title:  Alguns usuários do ABCD
         url:    /docs/pt/users_abcd
-      - title:  Downloads
+      - title:  Baixar
         url:    /docs/pt/versions
-      - title:  Demo
+      - title:  Demonstração
         url:    /docs/pt/demo
   - title:      Configuração do módulo central
     children:
@@ -346,7 +416,7 @@ docs-pt:
         url:    /docs/pt/1-configuration/folders_databases
       - title:  Permissões dos operadores do ABCD
         url:    /docs/pt/1-configuration/operators
-      - title:  Alterar a aparência
+      - title:  pasta de banco de dados
         url:    /docs/pt/1-configuration/appearance    
       - title:  Modificar página inicial
         url:    /docs/pt/1-configuration/modify-home-page     
@@ -354,48 +424,160 @@ docs-pt:
         url:    /docs/pt/1-configuration/bases_dat      
       - title:  Adicionar uma nova opção ao menu de catalogação
         url:    /docs/pt/1-configuration/add_module
-  - title:      Catalogação
+  - title:  Catalogação
     children:
-        - title:  Definição de bancos de dados
-          url: /docs/pt/2-cataloging/fdt
-        - title:  Dicionário de termos (índices)
-          url: /docs/pt/2-cataloging/fdt
-        - title:  Entrada de dados
-          url: /docs/pt/2-cataloging/fdt
-        - title:  Proteger edição de registro
-          url: /docs/pt/2-cataloging/fdt
-        - title:  validação de registro
-          url: /docs/pt/2-cataloging/fdt
-        - title:  Controle de terminologia
-          url: /docs/pt/2-cataloging/fdt
-        - title:  Pesquisas
-          url: /docs/pt/2-cataloging/fdt
-        - title:  Dicionário de sinônimos
-          url: /docs/pt/2-cataloging/fdt
-        - title:  Gravar formatos de apresentação
-          url: /docs/pt/2-cataloging/fdt
-        - title:  Associar documentos digitais
-          url: /docs/pt/2-cataloging/fdt
-        - title:  Modificar definição do banco de dados
-          url: /docs/pt/2-cataloging/fdt
-        - title:  Gestão de inventário de coleção
-          url: /docs/pt/2-cataloging/fdt
-        - title:  Utilitário
-          url: /docs/pt/2-cataloging/fdt
-        - title:  Impressão de etiquetas e códigos de barras
-          url: /docs/pt/2-cataloging/fdt
-        - title:  Inventário de coleção
-          url: /docs/pt/2-cataloging/fdt
-        - title:  Relatórios
-          url: /docs/pt/2-cataloging/fdt
-        - title:  Estatisticas
-          url: /docs/pt/2-cataloging/fdt        
-  - title:      Languages
+      - title:  Definição de bancos de dados
+        url: /docs/pt/2-cataloging/fdt
+      - title:  Dicionário de termos (índices)
+        url: /docs/pt/2-cataloging/fst
+      - title:  Entrada de dados
+        url: /docs/pt/2-cataloging/fmt
+      - title:  Proteger edição de registro
+        url: /docs/pt/2-cataloging/protect-record
+      - title:  validação de registro
+        url: /docs/pt/2-cataloging/recval
+      - title:  Controle de terminologia
+        url: /docs/pt/2-cataloging/control-terms
+      - title:  Pesquisas
+        url: /docs/pt/2-cataloging/dataentry-search
+      - title:  Dicionário de sinônimos
+        url: /docs/pt/2-cataloging/central-tesaurus
+      - title:  Gravar formatos de apresentação
+        url: /docs/pt/2-cataloging/pft
+      - title:  Associar documentos digitais
+        url: /docs/pt/2-cataloging/doc_digital
+      - title:  Modificar definição do banco de dados
+        url: /docs/pt/2-cataloging/modify-db
+      - title:  Gestão de inventário de coleção
+        url: /docs/pt/2-cataloging/inventory
+      - title:  Utilitário
+        url: /docs/pt/2-cataloging/utils
+      - title:  Impressão de etiquetas e códigos de barras
+        url: /docs/pt/2-cataloging/print-barcode
+      - title:  Inventário de coleção
+        url: /docs/pt/2-cataloging/inventory-collection
+      - title:  Relatórios
+        url: /docs/pt/2-cataloging/reports
+      - title:  Estatisticas
+        url: /docs/pt/2-cataloging/stats
+  - title:  Circulação e Empréstimos
     children:
-      - title:  Inglês
-        url:    /docs/en/quick-start
-      - title:  Espanhol
-        url:    /docs/es/quick-start
+      - title:  Configuração do empréstimo
+        url: /docs/pt/3-circulation/config-circ
+      - title:  Bancos de dados de origem
+        url: /docs/pt/3-circulation/database-orig
+      - title:  Modalidades de acesso a exemplares
+        url: /docs/pt/3-circulation/access-copies
+      - title:  Dias de empréstimo/renovação
+        url: /docs/pt/3-circulation/renew
+      - title:  Controle do empréstimo de revistas
+        url: /docs/pt/3-circulation/journal
+      - title:  Impressão de recibos
+        url: /docs/pt/3-circulation/print-receipts
+      - title:  Envio de lembretes por e-mail
+        url: /docs/pt/3-circulation/mail-receipts
+      - title:  formatos de exibição
+        url: /docs/pt/3-circulation/pft-circ
+      - title:  Bancos de dados envolvidos no processo
+        url: /docs/pt/3-circulation/databases-int
+      - title:  Script para o processo de empréstimo
+        url: /docs/pt/3-circulation/scripts-circ
+  - title:  Reservas
+    children:
+      - title:  Requisitos para implementar a reserva
+        url: /docs/pt/4-reserves/start-reserve
+      - title:  Formatos usados na reserva
+        url: /docs/pt/4-reserves/pft-reserve
+      - title:  Como o ABCD determina se você pode reservar
+        url: /docs/pt/4-reserves/set-reserver
+      - title:  Geração de email
+        url: /docs/pt/4-reserves/mail-reserves
+  - title:  Aquisições
+    children:
+      - title:  Aquisições
+        url: /docs/pt/5-acquisitions/start-acq
+  - title:  ABCD OPAC
+    children:
+      - title:  Descrição
+        url: /docs/pt/6-opac/start
+      - title:  Baixe a versão beta
+        url: /docs/pt/6-opac/download-opac
+      - title:  Estrutura das pastas com scripts e executáveis
+        url: /docs/pt/6-opac/folders-scripts
+      - title:  Estrutura de pastas com arquivos de configuração
+        url: /docs/pt/6-opac/structure-folder
+      - title:  Passo a passo de configuração
+        url: /docs/pt/6-opac/configuration
+      - title:  Detalhes da configuração
+        url: /docs/pt/6-opac/more-config
+      - title:  Barra de Ferramentas do Registro
+        url: /docs/pt/6-opac/toolbars
+      - title:  Configuração do banco de dados
+        url: /docs/pt/6-opac/config-database
+      - title:  circulação e empréstimos
+        url: /docs/pt/6-opac/opac-circulation
+      - title:  formatos de saída
+        url: /docs/pt/6-opac/opac-pft
+      - title:  Vincular registros do banco de dados
+        url: /docs/pt/6-opac/con-db
+      - title:  Aparência
+        url: /docs/pt/6-opac/design
+  - title:  iAH
+    children:
+      - title:  Consultar os bancos de dados
+        url: /docs/pt/7-iah/search-database
+      - title:  Envie um registro pai e seus registros vinculados
+        url: /docs/pt/7-iah/principal-rec
+      - title:  Link com circulação e empréstimo
+        url: /docs/pt/7-iah/iah-circ
+      - title:  Status da conta do usuário
+        url: /docs/pt/7-iah/iah-users
+      - title:  reserva online
+        url: /docs/pt/7-iah/iah-reserve
+      - title:  Solicitar senha para ler documentos protegidos
+        url: /docs/pt/7-iah/iah-login
+      - title:  Javascript para destacar os termos de pesquisa
+        url: /docs/pt/7-iah/iah-highlight
+      - title:  correção de vulnerabilidade iAH
+        url: /docs/pt/7-iah/iah-security
+      - title:  Adicionar parâmetros próprios ao arquivo DBN.def
+        url: /docs/pt/7-iah/iah-dbn-par
+      - title:  Detectar o IP do cliente que consulta
+        url: /docs/pt/7-iah/iah-ip
+      - title:  Ativar opções de execução
+        url: /docs/pt/7-iah/iah-options-exec
+  - title:  Bancos de dados do sistema
+    children:  
+      - title:  Bancos de dados do sistema
+        url: /docs/pt/8-sys_database/databases-sys
+  - title:  Documentação
+    children:
+      - title:  Documentos e Manuais
+        url: /docs/pt/9-documentation/manual
+      - title:  Perguntas mais frequentes
+        url: /docs/pt/9-documentation/faq
+      - title:  Mensagens de erro
+        url: /docs/pt/9-documentation/errors
+      - title:  Por fazer
+        url: /docs/pt/9-documentation/planner
+  - title:  Introdução às estruturas CDS/ISIS
+    children:
+      - title:  Generalidades
+        url: /docs/pt/99-cdsisis/general
+      - title:  arquivos de dados
+        url: /docs/pt/99-cdsisis/data-files
+      - title:  Arquivos de índice
+        url: /docs/pt/99-cdsisis/index-files
+      - title:  Linguagem de formato
+        url: /docs/pt/99-cdsisis/pft-files
+      - title:  Tabela de Extração de Campo (FST)
+        url: /docs/pt/99-cdsisis/fst-files
+  - title:  Idiomas disponíveis
+    children:
+      - title:  English
+        url:    /docs/en/
+      - title:  Português
+        url:    /docs/pt/
 
 layouts:
   - title: Layouts

@@ -35,6 +35,19 @@
             {%- endif -%}
           {%- endfor -%}
           {%- if site.search.provider -%}
+<li class="navigation__item">
+<div class="dropdown" id="drop-down">
+  <span>Language </span>
+  <label>
+    <input type="checkbox">
+    <ul>
+      <li><a val="English" href="/wiki/docs/en/">English</a></li>
+      <li><a val="Portuguese" href="/wiki/docs/pt/">Portuguese</a></li>
+      <li><a val="Spanish" href="/wiki/docs/es/">Spanish</a></li>
+    </ul>
+  </label>
+</div>
+</li>
             <li><button class="button button--secondary button--circle search-button js-search-toggle"><i class="fas fa-search"></i></button></li>
           {%- endif -%}
         </ul>
