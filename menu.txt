@@ -1,0 +1,332 @@
+####### Menu em espanhol
+
+
+
+0-Inicio
+	Acerca del WIKI
+	Algunos usuarios de ABCD
+	Descargas
+	Demo de ABCD
+
+1-Configuración del módulo Central
+	Internacionalización				
+	Configuración inicial (config.php)
+	Configuración ampliada (config_extended.php)
+	abcd.def - Parámetros generales de configuración
+	Carpetas con las bases de datos
+	Permisología de los operadores de ABCD
+	Registro de Operadores
+	Cambiar la apariencia (colores y/o iconos) utilizados en la interfaz de una carpeta de bases de datos
+	Crear páginas de inicio particulares para cada instalación
+	Modificar el archivo bases.dat
+	Agregar una nueva opción al menú de catalogación
+
+
+2-Catalogación
+	Definición de bases de datos
+	Diccionario de términos (Índices)
+	Entrada de datos
+	Proteger la edición de registros
+	Validación de registros
+	Control de terminología
+		
+	Tesauros
+	Formatos de presentación de los registros
+	Asociar documentos digitales
+	Modificar definición base de datos
+	Manejo del inventario de la colección
+	Utilitarios
+	Impresión de marbetes y códigos de barra
+	Realización del inventario de la colección
+	Reportes
+	Estadísticas					
+
+
+
+3-Circulación y préstamos
+	Configuración préstamos
+	Bases de datos de origen
+	Modalidades para el acceso a las copias
+	Días préstamo/renovación
+	Control del préstamo de revistas
+	Impresión de los recibos
+	Envío de recordatorios por correo electrónico
+	Formatos de despliegue
+	Bases de datos que intervienen en el proceso
+	Script para el proceso de préstamos
+
+
+4-Reservas
+	Requisitos para implementar la reserva
+	Formatos utilizados en la reserva
+	Cómo ABCD determina si se puede reservar
+	Generación de correos					
+
+
+
+5-Adquisiciones
+
+
+
+
+6-OPAC de ABCD
+	Descripción
+	Descargar versión Beta
+	Estructura de las carpetas con scripts y ejecutables
+	Estructura de la carpeta con los archivos de configuración
+	Tutorial de Configuración
+	Detalles de la configuración
+	Barra de herramientas del registro
+	Configuración de bases de datos
+	Circulación y préstamos
+	Formatos de salida
+	Vincular registros de bases de datos
+	Apariencia					
+
+
+
+7-iAH
+	Consulta a las bases de datos
+	Presentar un registro principal y sus registros vinculados
+	Enlace con circulación y préstamo
+	Estado de cuenta de un usuario
+	Reserva en línea
+	Solicitar clave para leer documentos protegidos
+	Javascript para resaltar términos de búsqueda
+	Solución de vulnerabilidad del iAH
+	Agregar parámetros propios al archivo DBN.def
+	Detectar el IP del cliente que consulta
+	Activar opciones para la ejecución					
+
+
+
+8-Bases de datos del Sistema
+
+
+9-Documentación
+	Documentos y Manuales
+	Preguntas más frecuentes
+	Mensajes de error
+	Por hacer					
+
+
+
+99-Introducción a las estructuras CDS/Isis
+	Generalidades
+	Archivos de datos
+	Archivos de índices
+	Lenguaje de formatos
+	Tabla de extracción de campos (FST)					
+
+
+
+===============================================
+####### Menu em inglês
+
+Home
+	About the WIKI
+	Some ABCD users
+	Downloads
+	Demo
+
+Central module configuration
+	Internationalization
+	Initial configuration (config.php)
+	Extended configuration (config_extended.php)
+	abcd.def - General configuration parameters
+	Folders with the databases
+	Permits of ABCD operators
+	Operators registration
+	Change the appearance (colors and/or icons) used in the interface of a database folder
+	Modify home page
+	Modify the bases.dat file
+	Add a new option to the cataloging menu
+
+Cataloging
+	Definition of databases
+	Dictionary of terms (Indexes)
+	Data entry
+	Protect record editing
+	record validation
+	terminology control
+	searches
+	thesaurus
+	Record presentation formats
+	Associate digital documents
+	Modify database definition
+	Collection inventory management
+	utility
+	Label and barcode printing
+	Collection inventory
+	reports
+	Statistics
+
+Circulation and loans
+	Loan configuration
+	Source databases
+	Modalities for access to copies
+	Loan/renewal days
+	Control of the loan of magazines
+	Printing of receipts
+	Sending email reminders
+	display formats
+	Databases involved in the process
+	Script for the loan process
+
+Reserves
+	Requirements to implement the reserve
+	Formats used in the reservation
+	How ABCD determines if you can book
+	email generation
+
+Acquisitions
+
+OPAC
+	Description
+	Download Beta version
+	Structure of the folders with scripts and executables
+	Folder structure with configuration files
+	Setup Walkthrough
+	Configuration details
+	Registry Toolbar
+	Database configuration
+	circulation and loans
+	output formats
+	Link database records
+	Appearance
+
+iAH
+	Query the databases
+	Submit a parent record and its linked records
+	Link with circulation and loan
+	User account status
+	online reservation
+	Request password to read protected documents
+	Javascript to highlight search terms
+	iAH vulnerability fix
+	Add own parameters to the DBN.def file
+	Detect the IP of the client that queries
+	Activate options for execution
+
+System databases
+
+Documentation
+	Documents and Manuals
+	Frequently asked questions
+	error messages
+	To do
+
+Introduction to CDS/Isis structures
+	Generalities
+	data files
+	index files
+	format language
+	Field Extraction Table (FST)
+
+
+
+===============================================
+####### Menu em português
+
+
+
+Início
+	Sobre o Wiki
+	Alguns usuários do ABCD
+	Baixar
+	Demonstração
+
+Configuração do módulo central
+	Internacionalização
+	Configuração inicial (config.php)
+	Configuração estendida (config_extended.php)
+	abcd.def - Parâmetros gerais de configuração
+	Pastas com os bancos de dados
+	Permissões dos operadores do ABCD
+	Alterar a aparência (cores e/ou ícones) usada na interface de uma pasta de banco de dados
+	Modificar página inicial
+	Modifique o arquivo bases.dat
+	Adicionar uma nova opção ao menu de catalogação
+
+
+Catalogação
+	Definição de bancos de dados
+	Dicionário de termos (índices)
+	Entrada de dados
+	Proteger edição de registro
+	validação de registro
+	Controle de terminologia
+	Pesquisas
+	Dicionário de sinônimos
+	Gravar formatos de apresentação
+	Associar documentos digitais
+	Modificar definição do banco de dados
+	Gestão de inventário de coleção
+	Utilitário
+	Impressão de etiquetas e códigos de barras
+	Inventário de coleção
+	Relatórios
+	Estatisticas
+
+
+Circulação e Empréstimos
+	Configuração do empréstimo
+	Bancos de dados de origem
+	Modalidades de acesso a exemplares
+	Dias de empréstimo/renovação
+	Controle do empréstimo de revistas
+	Impressão de recibos
+	Envio de lembretes por e-mail
+	formatos de exibição
+	Bancos de dados envolvidos no processo
+	Script para o processo de empréstimo
+
+Reservas
+	Requisitos para implementar a reserva
+	Formatos usados na reserva
+	Como o ABCD determina se você pode reservar
+	Geração de email
+
+Aquisições
+
+ABCD OPAC
+	Descrição
+	Baixe a versão beta
+	Estrutura das pastas com scripts e executáveis
+	Estrutura de pastas com arquivos de configuração
+	Passo a passo de configuração
+	Detalhes da configuração
+	Barra de Ferramentas do Registro
+	Configuração do banco de dados
+	circulação e empréstimos
+	formatos de saída
+	Vincular registros do banco de dados
+	Aparência
+
+iAH
+	Consultar os bancos de dados
+	Envie um registro pai e seus registros vinculados
+	Link com circulação e empréstimo
+	Status da conta do usuário
+	reserva online
+	Solicitar senha para ler documentos protegidos
+	Javascript para destacar os termos de pesquisa
+	correção de vulnerabilidade iAH
+	Adicionar parâmetros próprios ao arquivo DBN.def
+	Detecta o IP do cliente que consulta
+	Ativar opções de execução
+
+Bancos de dados do sistema
+
+Documentação
+	Documentos e Manuais
+	Perguntas mais frequentes
+	Mensagens de erro
+	Por fazer
+
+Introdução às estruturas CDS/Ísis
+	Generalidades
+	arquivos de dados
+	arquivos de índice
+	linguagem de formato
+	Tabela de Extração de Campo (FST)

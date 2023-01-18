@@ -148,112 +148,172 @@ docs-es:
         url:    /docs/es/demo
   - title:      Central module configuration
     children:
-      - title:  Internationalization
+      - title:  Internacionalización
         url:    /docs/es/1-configuration/internationalization
-      - title:  Initial configuration (config.php)
+      - title:  Configuración inicial (config.php)
         url:    /docs/es/1-configuration/configuration
-      - title:  Extended configuration (config_extended.php)
+      - title:  Configuración ampliada (config_extended.php)
         url:    /docs/es/1-configuration/configuration_ext
-      - title:  abcd.def - General configuration parameters
+      - title:  abcd.def - Parámetros generales de configuración
         url:    /docs/es/1-configuration/abcd_def
-      - title:  Folders with the databases
+      - title:  Carpetas con las bases de datos
         url:    /docs/es/1-configuration/folders_databases
-      - title:  Permits of ABCD operators
+      - title:  Permisología de los operadores de ABCD
         url:    /docs/es/1-configuration/operators
-      - title:  Change the appearance
+      - title:  Cambiar la apariencia
         url:    /docs/es/1-configuration/appearance    
-      - title:  Modify home page
+      - title:  Crear páginas de inicio para cada instalación
         url:    /docs/es/1-configuration/modify-home-page     
-      - title:  Modify the bases.dat file
+      - title:  Modificar el archivo bases.dat
         url:    /docs/es/1-configuration/bases_dat      
-      - title:  Add a new option to the cataloging menu
+      - title:  Agregar una nueva opción al menú de catalogación
         url:    /docs/es/1-configuration/add_module
   - title:      Catalogación
     children:
-        - title:  Definición de bases de datos
-          url: /docs/es/2-catalogation/fdt
-        - title:  Diccionario de términos (Índices)
-          url: /docs/es/2-catalogation/fdt
-        - title:  Entrada de datos
-          url: /docs/es/2-catalogation/fdt
-        - title:  Proteger la edición de registros
-          url: /docs/es/2-catalogation/fdt
-        - title:  Validación de registros
-          url: /docs/es/2-catalogation/fdt
-        - title:  Control de terminología
-          url: /docs/es/2-catalogation/fdt
-        - title:  Búsquedas
-          url: /docs/es/2-catalogation/fdt
-        - title:  Tesauros
-          url: /docs/es/2-catalogation/fdt
-        - title:  Formatos de presentación de los registros
-          url: /docs/es/2-catalogation/fdt
-        - title:  Asociar documentos digitales
-          url: /docs/es/2-catalogation/fdt
-        - title:  Modificar definición base de datos
-          url: /docs/es/2-catalogation/fdt
-        - title:  Manejo del inventario de la colección
-          url: /docs/es/2-catalogation/fdt
-        - title:  Utilitarios
-          url: /docs/es/2-catalogation/fdt
-        - title:  Impresión de marbetes y códigos de barra
-          url: /docs/es/2-catalogation/fdt
-        - title:  Realización del inventario de la colección
-          url: /docs/es/2-catalogation/fdt
-        - title:  Reportes
-          url: /docs/es/2-catalogation/fdt
-        - title:  Estadísticas
-          url: /docs/es/2-catalogation/fdt
+      - title:  Definición de bases de datos
+        url: /docs/es/2-cataloging/fdt
+      - title:  Diccionario de términos (Índices)
+        url: /docs/es/2-cataloging/fst
+      - title:  Entrada de datos
+        url: /docs/es/2-cataloging/fmt
+      - title:  Proteger la edición de registros
+        url: /docs/es/2-cataloging/protect-record
+      - title:  Validación de registros
+        url: /docs/es/2-cataloging/recval
+      - title:  Control de terminología
+        url: /docs/es/2-cataloging/control-terms
+      - title:  Búsquedas
+        url: /docs/es/2-cataloging/dataentry-search
+      - title:  Tesauros
+        url: /docs/es/2-cataloging/central-tesaurus
+      - title:  Formatos de presentación de los registros
+        url: /docs/es/2-cataloging/pft
+      - title:  Asociar documentos digitales
+        url: /docs/es/2-cataloging/doc_digital
+      - title:  Modificar definición base de datos
+        url: /docs/es/2-cataloging/modify-db
+      - title:  Manejo del inventario de la colección
+        url: /docs/es/2-cataloging/inventory
+      - title:  Utilitarios
+        url: /docs/es/2-cataloging/utils
+      - title:  Impresión de marbetes y códigos de barra
+        url: /docs/es/2-cataloging/print-barcode
+      - title:  Realización del inventario de la colección
+        url: /docs/es/2-cataloging/inventory-collection
+      - title:  Reportes
+        url: /docs/es/2-cataloging/reports
+      - title:  Estadísticas
+        url: /docs/es/2-cataloging/stats
   - title:      Circulación y préstamos
     children:
-      - title:  Catalogación
-        url:    /docs/es/configuration
+      - title:  Configuración préstamos
+        url: /docs/3-circulation/config-circ
+      - title:  Bases de datos de origen
+        url: /docs/3-circulation/database-orig
+      - title:  Modalidades para el acceso a las copias
+        url: /docs/3-circulation/access-copies
+      - title:  Días préstamo/renovación
+        url: /docs/3-circulation/renew
+      - title:  Control del préstamo de revistas
+        url: /docs/3-circulation/issues
+      - title:  Impresión de los recibos
+        url: /docs/3-circulation/print-receipts
+      - title:  Envío de recordatorios por correo electrónico
+        url: /docs/3-circulation/mail-receipts
+      - title:  Formatos de despliegue
+        url: /docs/3-circulation/pft-circ
+      - title:  Bases de datos que intervienen en el proceso
+        url: /docs/3-circulation/databases-int
+      - title:  Script para el proceso de préstamos
+        url: /docs/3-circulation/scripts-circ
   - title:      Reservas
     children:
-      - title:  Catalogación
-        url:    /docs/es/configuration    
+      - title:  Requisitos para implementar la reserva
+        url: /docs/es/4-reserves/start-reserve
+      - title:  Formatos utilizados en la reserva
+        url: /docs/es/4-reserves/pft-reserve
+      - title:  Cómo ABCD determina si se puede reservar
+        url: /docs/es/4-reserves/set-reserver
+      - title:  Generación de correos  
+        url: /docs/es/4-reserves/mail-reserves
   - title:      Adquisiciones
     children:
-      - title:  Catalogación
-        url:    /docs/es/configuration      
+      - title:  Adquisiciones
+        url: /docs/es/41-acquisitions/start-acq
   - title:      OPAC de ABCD
     children:
-      - title:  Catalogación
-        url:    /docs/es/configuration      
+      - title:  Descripción
+        url: /docs/es/6-opac/start
+      - title:  Descargar versión Beta
+        url: /docs/es/6-opac/download-opac
+      - title:  Estructura de las carpetas con scripts y ejecutables
+        url: /docs/es/6-opac/folders-scripts
+      - title:  Estructura de la carpeta con los archivos de configuración
+        url: /docs/es/6-opac/structure-folder
+      - title:  Tutorial de Configuración
+        url: /docs/es/6-opac/configuration
+      - title:  Detalles de la configuración
+        url: /docs/es/6-opac/more-config
+      - title:  Barra de herramientas del registro
+        url: /docs/es/6-opac/toolbars
+      - title:  Configuración de bases de datos
+        url: /docs/es/6-opac/config-database
+      - title:  Circulación y préstamos
+        url: /docs/es/6-opac/opac-circulation
+      - title:  Formatos de salida
+        url: /docs/es/6-opac/opac-pft
+      - title:  Vincular registros de bases de datos
+        url: /docs/es/6-opac/xxxxx
+      - title:  Apariencia      
+        url: /docs/es/6-opac/xxxxx
+  - title:      iAH
+    children:
+      - title:  Consulta a las bases de datos
+        url: /docs/es/7-iah/search-database
+      - title:  Presentar un registro principal y sus registros vinculados
+        url: /docs/es/7-iah/principal-rec
+      - title:  Enlace con circulación y préstamo
+        url: /docs/es/7-iah/iah-circ
+      - title:  Estado de cuenta de un usuario
+        url: /docs/es/7-iah/iah-users
+      - title:  Reserva en línea
+        url: /docs/es/7-iah/iah-reserve
+      - title:  Solicitar clave para leer documentos protegidos
+        url: /docs/es/7-iah/iah-login
+      - title:  Javascript para resaltar términos de búsqueda
+        url: /docs/es/7-iah/iah-highlight
+      - title:  Solución de vulnerabilidad del iAH
+        url: /docs/es/7-iah/iah-security
+      - title:  Agregar parámetros propios al archivo DBN.def
+        url: /docs/es/7-iah/iah-dbn-par
+      - title:  Detectar el IP del cliente que consulta
+        url: /docs/es/7-iah/iah-ip
+      - title:  Activar opciones para la ejecución     
+        url: /docs/es/7-iah/iah-options-exec
   - title:      Bases de datos del Sistema
+    url: /docs/es/8-sys_database/databases-sys
+  - title:      Documentación
     children:
-      - title:  Catalogación
-        url:    /docs/es/configuration      
-  - title:      Content
+      - title:  Documentos y Manuales
+        url: /docs/es/9-documentation/manual
+      - title:  Preguntas más frecuentes
+        url: /docs/es/9-documentation/faq
+      - title:  Mensajes de error
+        url: /docs/es/9-documentation/errors
+      - title:  Por hacer 
+        url: /docs/es/9-documentation/planner
+  - title:      Introducción a las estructuras CDS/Isis
     children:
-      - title:  Writing Posts
-        url:    /docs/es/writing-posts
-      - title:  Additional Styles
-        url:    /docs/es/additional-styles
-      - title:  Extensions
-        url:    /docs/es/extensions
-      - title:  Markdown Enhancements
-        url:    /docs/es/markdown-enhancements
-  - title:      Extra
-    children:
-      - title:  Spacing
-        url:    /docs/es/spacing
-      - title:  Grid
-        url:    /docs/es/grid
-      - title:  Icons
-        url:    /docs/es/icons
-      - title:  Image
-        url:    /docs/es/image
-      - title:  Button
-        url:    /docs/es/button
-      - title:  Item
-        url:    /docs/es/item
-      - title:  Card
-        url:    /docs/es/card
-      - title:  Hero
-        url:    /docs/es/hero
-      - title:  Swiper
-        url:    /docs/es/swiper
+      - title:  Generalidades
+        url: /docs/es/99-cdsisis/general
+      - title:  Archivos de datos
+        url: /docs/es/99-cdsisis/data-files
+      - title:  Archivos de índices
+        url: /docs/es/99-cdsisis/index-files
+      - title:  Lenguaje de formatos
+        url: /docs/es/99-cdsisis/pft-files
+      - title:  Tabla de extracción de campos (FST)   
+        url: /docs/es/99-cdsisis/fst-files
   - title:      Languages
     children:
       - title:  English
@@ -297,39 +357,39 @@ docs-pt:
   - title:      Catalogação
     children:
         - title:  Definição de bancos de dados
-          url: /docs/pt/2-catalogation/fdt
+          url: /docs/pt/2-cataloging/fdt
         - title:  Dicionário de termos (índices)
-          url: /docs/pt/2-catalogation/fdt
+          url: /docs/pt/2-cataloging/fdt
         - title:  Entrada de dados
-          url: /docs/pt/2-catalogation/fdt
+          url: /docs/pt/2-cataloging/fdt
         - title:  Proteger edição de registro
-          url: /docs/pt/2-catalogation/fdt
+          url: /docs/pt/2-cataloging/fdt
         - title:  validação de registro
-          url: /docs/pt/2-catalogation/fdt
+          url: /docs/pt/2-cataloging/fdt
         - title:  Controle de terminologia
-          url: /docs/pt/2-catalogation/fdt
+          url: /docs/pt/2-cataloging/fdt
         - title:  Pesquisas
-          url: /docs/pt/2-catalogation/fdt
+          url: /docs/pt/2-cataloging/fdt
         - title:  Dicionário de sinônimos
-          url: /docs/pt/2-catalogation/fdt
+          url: /docs/pt/2-cataloging/fdt
         - title:  Gravar formatos de apresentação
-          url: /docs/pt/2-catalogation/fdt
+          url: /docs/pt/2-cataloging/fdt
         - title:  Associar documentos digitais
-          url: /docs/pt/2-catalogation/fdt
+          url: /docs/pt/2-cataloging/fdt
         - title:  Modificar definição do banco de dados
-          url: /docs/pt/2-catalogation/fdt
+          url: /docs/pt/2-cataloging/fdt
         - title:  Gestão de inventário de coleção
-          url: /docs/pt/2-catalogation/fdt
+          url: /docs/pt/2-cataloging/fdt
         - title:  Utilitário
-          url: /docs/pt/2-catalogation/fdt
+          url: /docs/pt/2-cataloging/fdt
         - title:  Impressão de etiquetas e códigos de barras
-          url: /docs/pt/2-catalogation/fdt
+          url: /docs/pt/2-cataloging/fdt
         - title:  Inventário de coleção
-          url: /docs/pt/2-catalogation/fdt
+          url: /docs/pt/2-cataloging/fdt
         - title:  Relatórios
-          url: /docs/pt/2-catalogation/fdt
+          url: /docs/pt/2-cataloging/fdt
         - title:  Estatisticas
-          url: /docs/pt/2-catalogation/fdt        
+          url: /docs/pt/2-cataloging/fdt        
   - title:      Languages
     children:
       - title:  Inglês
