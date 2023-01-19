@@ -1,3 +1,8 @@
+# Access
+**Español** - Se puede acceder a esta Wiki en: https://abcd-community.github.io/wiki/docs/es/
+**Português** - Esta Wiki pode ser acessada pelo endereço: https://abcd-community.github.io/wiki/docs/pt/
+**English** - This Wiki can be accessed at: https://abcd-community.github.io/wiki/docs/en/
+
 # About the WIKI
 
 This WIKI is intended to provide downloads and updates to the **ABCD** **central** module and to provide updated documentation and help about the different options provided by the central module for the management of documentary, archival, factual, museum, biodiversity, and databases. In general, any database oriented towards the handling of documents and objects from the point of view of managing their contents or characteristics.
