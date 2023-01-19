@@ -1,6 +1,7 @@
 ---
 title: Acerca del ABCD
 permalink: /docs/es/
+lang: es
 key: docs-quick-start-es
 ---
 

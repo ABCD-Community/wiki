@@ -1,6 +1,7 @@
 ---
 title: About ABCD
 permalink: /docs/en/
+lang: en
 key: docs-quick-start
 ---
 
