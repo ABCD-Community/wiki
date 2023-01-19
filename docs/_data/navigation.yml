@@ -4,11 +4,6 @@ header:
   - title:      Docs
     url:        /docs/en/
     key:        docs
-  - title:      Samples
-    url:        /samples.html
-    key:        samples
-  - title:      Archive
-    url:        /archive.html
   - title:      About
     url:        /about.html
   - title:      GitHub
