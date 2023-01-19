@@ -25,11 +25,11 @@ docs-en:
     children:
       - title:  Internationalization
         url:    /docs/en/1-configuration/internationalization
-      - title:  Initial configuration (config.php)
+      - title:  Initial configuration
         url:    /docs/en/1-configuration/configuration
-      - title:  Extended configuration (config_extended.php)
+      - title:  Extended configuration
         url:    /docs/en/1-configuration/configuration_ext
-      - title:  abcd.def - General configuration parameters
+      - title:  General configuration parameters
         url:    /docs/en/1-configuration/abcd_def
       - title:  Folders with the databases
         url:    /docs/en/1-configuration/folders_databases
@@ -213,11 +213,11 @@ docs-es:
     children:
       - title:  Internacionalización
         url:    /docs/es/1-configuration/internationalization
-      - title:  Configuración inicial (config.php)
+      - title:  Configuración inicial
         url:    /docs/es/1-configuration/configuration
-      - title:  Configuración ampliada (config_extended.php)
+      - title:  Configuración ampliada
         url:    /docs/es/1-configuration/configuration_ext
-      - title:  abcd.def - Parámetros generales de configuración
+      - title:  Parámetros generales de configuración
         url:    /docs/es/1-configuration/abcd_def
       - title:  Carpetas con las bases de datos
         url:    /docs/es/1-configuration/folders_databases
@@ -401,11 +401,11 @@ docs-pt:
     children:
       - title:  Internacionalização
         url:    /docs/pt/1-configuration/internationalization
-      - title:  Configuração inicial (config.php)
+      - title:  Configuração inicial
         url:    /docs/pt/1-configuration/configuration
-      - title:  Configuração estendida (config_extended.php)
+      - title:  Configuração estendida
         url:    /docs/pt/1-configuration/configuration_ext
-      - title:  abcd.def - Parâmetros gerais de configuração
+      - title:  Parâmetros gerais de configuração
         url:    /docs/pt/1-configuration/abcd_def
       - title:  Pastas com os bancos de dados
         url:    /docs/pt/1-configuration/folders_databases
