@@ -1,8 +1,8 @@
 ---
 title: Sobre o ABCD
-permalink: /docs/pt/index
+permalink: /pt/
 lang: pt
-key: docs-quick-start-pt
+key: docs-pt
 ---
 
 ## Introdução geral ao ABCD como um conjunto de software

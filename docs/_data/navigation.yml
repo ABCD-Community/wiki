@@ -14,7 +14,7 @@ docs-en:
   - title:  Home
     children:
       - title:  About the WIKI
-        url:    /docs/en/
+        url:    /en/
       - title:  Some ABCD users
         url:    /docs/en/users_abcd
       - title:  Downloads
@@ -202,7 +202,7 @@ docs-es:
   - title:      Home
     children:
       - title:  Acerca del ABCD
-        url:    /docs/es/
+        url:    /es/
       - title:  Some ABCD users
         url:    /docs/es/users_abcd
       - title:  Downloads
@@ -390,7 +390,7 @@ docs-pt:
   - title:      Início
     children:
       - title:  Sobre o Wiki
-        url:    /docs/pt/
+        url:    /pt/
       - title:  Alguns usuários do ABCD
         url:    /docs/pt/users_abcd
       - title:  Baixar
