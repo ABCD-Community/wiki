@@ -1,8 +1,8 @@
 ---
 title: About ABCD
-permalink: /docs/en/
+permalink: /en/
 lang: en
-key: docs-quick-start
+key: docs-en
 ---
 
 

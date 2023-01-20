@@ -1,8 +1,8 @@
 ---
 title: Acerca del ABCD
-permalink: /docs/es/
+permalink: /es/
 lang: es
-key: docs-quick-start-es
+key: docs-es
 ---
 
 ABCD es un acrónimo para designar un conjunto de herramientas para la **A**utomatización de **B**ibliotecas y **C**entros de **D**ocumentación. Este acrónimo se mantiene en francés: **A**utomation des **B**ibliothèques et **C**entres de **D**ocumentacion y en portugués: **A**utomatização das **B**ibliotecas e dos **C**entros de **D**ocumentação. Aún en otros lenguajes no-latinos con variaciones leves pero aceptables, por ejemplo, en holandés: **A**utomatisering van **B**ibliotheken en **C**entra voor **D**ocumentatie, donde el acrónimo también se mantiene.
