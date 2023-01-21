@@ -367,6 +367,8 @@ docs-es:
         url: /docs/es/9-documentation/errors
       - title:  Por hacer 
         url: /docs/es/9-documentation/planner
+      - title:  CISIS
+        url: /docs/es/9-documentation/cisis
   - title:      Introducción a las estructuras CDS/Isis
     children:
       - title:  Generalidades
