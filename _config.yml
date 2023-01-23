@@ -130,7 +130,7 @@ comments:
     clientID    : 6d5117c28a8eb9c492ef # GitHub Application Client ID
     clientSecret: bbfcf3469e26546d939c47cd58d771afd6091ef9 # GitHub Application Client Secret
     repository  : https://github.com/ABCD-Community/wiki # GitHub repo
-    owner       : ABCD-Community # GitHub repo owner
+    owner       : rogercgui # GitHub repo owner
     admin: rogercgui # GitHub repo owner and collaborators, only these guys can initialize GitHub issues, IT IS A LIST.
       # - your GitHub Id
 
@@ -238,25 +238,6 @@ defaults:
       show_subscribe: true
       pageview: true
       # lightbox: true
-  ## samples
-  - scope:
-      path: ""
-      type: sample_page
-    values:
-      nav_key: samples
-  - scope:
-      path: ""
-      type: sample_articles
-    values:
-      nav_key: samples
-      show_date: false
-  - scope:
-      path: ""
-      type: sample_languages
-    values:
-      layout: article
-      nav_key: samples
-      show_date: false
   ## docs
   - scope:
       path: "_docs/en"
