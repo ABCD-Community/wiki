@@ -127,11 +127,11 @@ comments:
   ## Gitalk
   # please refer to https://github.com/gitalk/gitalk for more info.
   gitalk:
-    clientID    : # GitHub Application Client ID
-    clientSecret: # GitHub Application Client Secret
-    repository  : # GitHub repo
-    owner       : # GitHub repo owner
-    admin: # GitHub repo owner and collaborators, only these guys can initialize GitHub issues, IT IS A LIST.
+    clientID    : 6d5117c28a8eb9c492ef # GitHub Application Client ID
+    clientSecret: bbfcf3469e26546d939c47cd58d771afd6091ef9 # GitHub Application Client Secret
+    repository  : https://github.com/ABCD-Community/wiki # GitHub repo
+    owner       : ABCD-Community # GitHub repo owner
+    admin: rogercgui # GitHub repo owner and collaborators, only these guys can initialize GitHub issues, IT IS A LIST.
       # - your GitHub Id
 
   ## Valine
@@ -169,11 +169,11 @@ search:
 ## => Analytics
 ##############################
 analytics:
-  provider: false # false (default), "google", "custom"
+  provider: google  # false (default), "google", "custom"
 
   ## Google Analytics
   google:
-    tracking_id : # Google Analytics id for the site
+    tracking_id : 289345138 # Google Analytics id for the site
     anonymize_ip: false # Anonymize IP tracking for Analytics
 
 
