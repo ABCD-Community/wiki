@@ -5,10 +5,27 @@
 
 **English** - This Wiki can be accessed at: https://abcd-community.github.io/wiki/docs/en/
 
+---
+
 # About the WIKI
 
-This WIKI is intended to provide downloads and updates to the **ABCD** **central** module and to provide updated documentation and help about the different options provided by the central module for the management of documentary, archival, factual, museum, biodiversity, and databases. In general, any database oriented towards the handling of documents and objects from the point of view of managing their contents or characteristics.
+This WIKI is intended to provide technical information about the ABCD.
 
-The design and maintenance of this WIKI as well as the updating and programming of the **central** **ABCD** module is in charge of Guilda Ascencio with the close collaboration of **Ernesto Spinak** and **Egbert de Smet**, who exhaustively test new developments and permanently make suggestions for development. of new modules or the improvement of the benefits of existing functionalities. A recognition also goes to those users who, through the discussion list, report problems or propose improvements or development of new options.
+The conception and maintenance of this WIKI was initiated by Guilda Ascencio, its updating is in charge of Roger C. Guilherme.
 
-The domain and the space to store the WIKI are courtesy of **Ernesto Spinak** who has been kind enough to hire the necessary supports so that the WIKI remains online.
+---
+
+
+# Sobre esta Wiki
+
+Esta WIKI destina-se a fornecer informações técnicas sobre o ABCD.
+
+A concepção e manutenção deste WIKI foi iniciada por Guilda Ascencio, sua atualização está a cargo de Roger C. Guilherme.
+
+---
+
+# Acerca de esta wiki
+
+Esta WIKI tiene por objeto proporcionar información técnica sobre el ABCD.
+
+La concepción y mantenimiento de esta WIKI fue iniciada por Guilda Ascencio, su actualización está a cargo de Roger C. Guilherme.
