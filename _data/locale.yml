@@ -78,21 +78,49 @@ pt: &PT
   CANCEL                  : "Cancelar"
   VIEWS                   : "visualizações"
   LAST_UPDATED            : "Última atualização"
-  PREVIOUS                : "AANTERIOR"
+  PREVIOUS                : "ANTERIOR"
   NEXT                    : "PRÓXIMO"
   ARTICLE_DATE_FORMAT     : "%d %b, %Y"
   ARTICLE_LIST_DATE_FORMAT: "%d %b"
   STATISTICS              : "[POST_COUNT] articles, [PAGE_COUNT] pages."
-  LICENSE_ANNOUNCE        : "Ce travail est sous licence [LICENSE]."
-  POST_ON_GITHUB          : "Modifier sur Github"
-  FOLLOW_ME               : "Suivez-moi sur [NAME]."
-  FOLLOW_US               : "Suivez-nous sur [NAME]."
-  EMAIL_ME                : "Envoyez-moi un courriel."
-  EMAIL_US                : "Envoyez-nous un courriel"
+  LICENSE_ANNOUNCE        : "Esta wiki está sob a licença [LICENSE]."
+  POST_ON_GITHUB          : "Modificar no github"
+  FOLLOW_ME               : "Me siga [NAME]."
+  FOLLOW_US               : "Siga-nos no [NAME]."
+  EMAIL_ME                : "Mande-me um email."
+  EMAIL_US                : "Envie-nos um e-mail"
   COPYRIGHT_DATES         : "2023"
-  DONATE                  : "Faites un don de [NAME]."
+  DONATE                  : "Fazer uma doação de [NAME]."
 
 pt-BR:
   <<: *PT
 pt-PT:
   <<: *PT
+
+
+## => Spanish
+########################
+es: &ES
+  LABEL                   : "Portugués"
+  SUBSCRIBE               : "Firmarlo"
+  READMORE                : "Lea mas"
+  SEARCH                  : "Buscar"
+  CANCEL                  : "Cancelar"
+  VIEWS                   : "Puntos de vista"
+  LAST_UPDATED            : "Última actualización"
+  PREVIOUS                : "Anterior"
+  NEXT                    : "próximo"
+  ARTICLE_DATE_FORMAT     : "%d %b, %Y"
+  ARTICLE_LIST_DATE_FORMAT: "%d %b"
+  STATISTICS              : "[POST_COUNT] artículos, [PAGE_COUNT] páginas."
+  LICENSE_ANNOUNCE        : "Este trabajo está bajo licencia [LICENSE]."
+  POST_ON_GITHUB          : "Modificar no github"
+  FOLLOW_ME               : "Seguime [NAME]."
+  FOLLOW_US               : "Siganos no [NAME]."
+  EMAIL_ME                : "Envíame un correo electrónico."
+  EMAIL_US                : "envianos un email"
+  COPYRIGHT_DATES         : "2023"
+  DONATE                  : "Donar [NAME]."
+
+es-ES:
+  <<: *ES

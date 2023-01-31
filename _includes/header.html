@@ -12,7 +12,7 @@
           {%- assign _paths_root = site.paths.root | default: site.data.variables.default.paths.root  -%}
           {%- include snippets/get-nav-url.html path=_paths_root -%}
           {%- if site.title -%}
-            <a title="{%- if site.description -%}{{ site.description }}{%- endif -%}" href="{{ __return }}{{ page.lang }}">{{ site.title }} -  {%- include snippets/get-locale-string.html key='LABEL' -%}{%- assign _locale_label = __return -%} {{ _locale_label }}</a>
+            <a title="{%- if site.description -%}{{ site.description }}{%- endif -%}" href="{{ __return }}{{ page.lang }}">{{ site.title }} - {%- include snippets/get-locale-string.html key='LABEL' -%}{%- assign _locale_label = __return -%} {{ _locale_label }}</a>
           {%- endif -%}
 
         </div>

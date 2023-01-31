@@ -50,6 +50,7 @@ ul.toc {
     }
     a {
       @include link-colors($text-color-d, $main-color-1);
+      text-align: left;
     }
   }
   .toc-h2 {
