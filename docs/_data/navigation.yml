@@ -249,12 +249,16 @@ docs-es:
         url: /docs/es/2-cataloging/central-tesaurus
       - title:  Formatos de presentación de los registros
         url: /docs/es/2-cataloging/pft
+      - title:  Formatos de salida que integrado
+        url: /docs/es/2-cataloging/pft-ref
       - title:  Asociar documentos digitales
         url: /docs/es/2-cataloging/doc_digital
       - title:  Modificar definición base de datos
         url: /docs/es/2-cataloging/modify-db
       - title:  Manejo del inventario de la colección
         url: /docs/es/2-cataloging/inventory
+      - title:  Gestión del inventario de la colección
+        url: /docs/es/2-cataloging/inventory2
       - title:  Utilitarios
         url: /docs/es/2-cataloging/utils
       - title:  Impresión de marbetes y códigos de barra
@@ -263,6 +267,8 @@ docs-es:
         url: /docs/es/2-cataloging/inventory-collection
       - title:  Reportes
         url: /docs/es/2-cataloging/reports
+      - title:  Activación y configuración de reportes especiales
+        url: /docs/es/2-cataloging/reports-esp
       - title:  Estadísticas
         url: /docs/es/2-cataloging/stats
   - title:      Circulación y préstamos
