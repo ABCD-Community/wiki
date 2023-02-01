@@ -13,7 +13,8 @@ O próprio nome já expressa a ambição da suíte de software: não apenas forn
 
 O ABCD é chamado de ‘suite’ de softwares para automação de bibliotecas e centros de documentação porque existe de alguns módulos relativamente independentes, que podem cooperar plenamente, mas também podem existir uns sem os outros. De fato, alguns softwares avançados existentes, a maioria já tendo demonstrado seu potencial em ambientes exigentes nas aplicações da BIREME (dentro do contexto da Biblioteca Virtual em Saúde), foram adotados e adaptados no ABCD - é por isso que os nomes originais como iAH, SeCS (ambos desenvolvidos pela BIREME) e EmpWeb (Empréstimos en Web) desenvolvidos originalmente por KALIO ltda. do Uruguai e amplamente testados em Valparaiso na Universidade) são mantidos. Estas partes principais são mostradas, com suas relações hierárquicas, no segundo nível na figura a seguir e posteriormente discutidas brevemente :
 
-![Slide2](https://user-images.githubusercontent.com/20482054/137317710-09934ef8-971e-499b-ac63-0cb54f7677c2.JPG)
+<img src="https://user-images.githubusercontent.com/20482054/137317883-75797ad3-47d5-43f0-b3b7-7c405f646236.JPG" width=800>
+usercontent.com/20482054/137317710-09934ef8-971e-499b-ac63-0cb54f7677c2.JPG)
 
 ### A ABCD Central
 
