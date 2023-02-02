@@ -173,6 +173,8 @@ docs-en:
     children:  
       - title:  System databases
         url: /docs/en/8-sys_database/databases-sys
+      - title:  Simultaneous database access
+        url: /docs/en/8-sys_database/simultaneous-db-access
   - title:  Documentation
     children:
       - title:  Documents and Manuals
@@ -197,6 +199,10 @@ docs-en:
         url: /docs/en/99-cdsisis/fst-files
       - title:  ANSI character set 
         url: /docs/en/99-cdsisis/ansi-table
+      - title:   ISISAC Table
+        url: /docs/en/99-cdsisis/isisac-table        
+      - title:   ISISUC Table
+        url: /docs/en/99-cdsisis/isisuc-table        
   - title:  Languages
     children:
       - title:  Spanish
@@ -373,6 +379,8 @@ docs-es:
     children:  
       - title:  Bases de datos del Sistema
         url: /docs/es/8-sys_database/databases-sys
+      - title:  Acceso concurrente a bases de datos
+        url: /docs/es/8-sys_database/simultaneous-db-access        
   - title:      Documentación
     children:
       - title:  Documentos y Manuales
@@ -399,6 +407,10 @@ docs-es:
         url: /docs/es/99-cdsisis/fst-files
       - title:  Juego de caracteres ANSI   
         url: /docs/es/99-cdsisis/ansi-table
+      - title:  Tabla de caracteres - ISISAC
+        url: /docs/es/99-cdsisis/isisac-table
+      - title:  Tabla de caracteres - ISISUC
+        url: /docs/es/99-cdsisis/isisuc-table
   - title:      Languages
     children:
       - title:  English
@@ -571,6 +583,8 @@ docs-pt:
     children:  
       - title:  Bancos de dados do sistema
         url: /docs/pt/8-sys_database/databases-sys
+      - title:  Acesso simultâneo ao banco de dados
+        url: /docs/pt/8-sys_database/simultaneous-db-access            
   - title:  Documentação
     children:
       - title:  Documentos e Manuais
@@ -595,6 +609,10 @@ docs-pt:
         url: /docs/pt/99-cdsisis/fst-files
       - title:  Conjunto de caracteres ANSI
         url: /docs/pt/99-cdsisis/ansi-table
+      - title:  Tabela de caracteres - ISISAC
+        url: /docs/pt/99-cdsisis/isisac-table        
+      - title:  Tabela de caracteres - ISISUC
+        url: /docs/pt/99-cdsisis/isisuc-table        
   - title:  Idiomas disponíveis
     children:
       - title:  English
