@@ -13,7 +13,7 @@
           {%- include snippets/get-nav-url.html path=_paths_root -%}
           {%- if site.title -%}
             <a title="{%- if site.description -%}{{ site.description }}{%- endif -%}" href="{{ __return }}{{ page.lang }}">{{
-              site.title }} 2.0f |&nbsp; {%- include snippets/get-locale-string.html key='LABEL' -%}{%- assign _locale_label = __return
+              site.title }} |&nbsp; {%- include snippets/get-locale-string.html key='LABEL' -%}{%- assign _locale_label = __return
               -%} {{ _locale_label }}</a>
           {%- endif -%}
 
@@ -38,7 +38,7 @@
             {%- endif -%}
           {%- endfor -%}
           {%- if site.search.provider -%}
-     
+      
 <li class="navigation__item">
 <div class="dropdown" id="drop-down">
   <span>Language </span>
