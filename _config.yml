@@ -55,8 +55,8 @@ author:
 
 ## => GitHub Repository (if the site is hosted by GitHub)
 ##############################
-repository: ABCD-Community/wiki/abcd-2.0f/
-repository_tree: abcd-2.0f
+repository: ABCD-Community/wiki/
+repository_tree: main
 
 
 ## => Paths
