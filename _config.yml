@@ -62,8 +62,8 @@ repository_tree: abcd-2.0f
 ## => Paths
 ##############################
 paths:
-  root    :  # title link url, "/" (default)
-  home    :  home # home layout url, "/" (default)
+  root    : # title link url, "/" (default)
+  home    : # home layout url, "/" (default)
   archive : # "/archive.html" (default)
   rss     : # "/feed.xml" (default)
 
@@ -209,17 +209,11 @@ collections_dir: docs
 collections:
   docs:
     output: true
-  sample_page:
-    output: true
-  sample_articles:
-    output: true
-  sample_languages:
-    output: true
 
 defaults:
   ## home
   - scope:
-      path: "test"
+      path: "/"
     values:
       articles:
         excerpt_type: html
