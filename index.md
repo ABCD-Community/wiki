@@ -6,6 +6,7 @@ aside:
     toc: true
 key: es-index
 lang: es
+permalink: index
 ---
 
 
